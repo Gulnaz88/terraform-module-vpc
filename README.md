@@ -3,9 +3,9 @@
 ## Usage:
 
 ```hcl
-module "vp" {
-    source = ""
-    version = "0.0.1"
+module "vpc" {
+    source = "Gulnaz88/vpc/module"
+    version = "0.0.2"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     subnet_cidr1 = "10.0.101.0/24"
